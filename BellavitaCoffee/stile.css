@@ -1,0 +1,315 @@
+
+
+body{
+   font-family: 'open-sans', Tahoma, Geneva, Verdana, sans-serif;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+#containers{
+   
+  width: 100%;
+ 
+  
+   
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-green{
+    background-color: #ff006e;
+    display: flex;
+    justify-content: center;
+    height: 10px;
+    width: 100%;
+
+}
+
+.cabecalho{
+    display: flex;
+    height: 100px;
+    max-width: 1024px;
+    padding: 20PX;
+    width: 1040px;
+    justify-content: space-between;
+ 
+    
+
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+
+.logo img{
+    width: 80px;
+    height: 80px;
+   
+   
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+
+.direita{
+    display: flex;
+    
+    padding: 10px;
+    align-items: center;
+
+    
+}
+.search{
+    width: 300px;
+    margin-right: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+.search input{
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(219, 218, 218);
+  
+}
+
+.search input:hover{
+    background-color: #f1ce6c;
+    cursor: pointer;
+}
+
+.search img{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -30px;
+}
+
+.menu img{
+    width: 30px;
+    height: 30px;
+}
+
+.menu img:hover{
+   
+    cursor: pointer;
+}
+
+.container-image-background{
+
+height:550px;
+width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    position: relative;
+  }
+
+.container-image-background::before{
+    background-image: url(imagens/background.jpg);
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: bottom;
+    z-index: -1;
+    opacity: 0.5;
+    height: 550px;
+}
+
+
+.titulo{
+  
+    font-size: 25px;
+   padding-left: 60px;
+   margin-top: 10px;
+   padding-top: 10px;
+   padding-bottom: 20px;
+   text-align: justify;
+   max-width: 1020px;
+}
+
+.subtitulo{
+
+    font-size: 15px;
+    padding-left: 80px;
+    margin: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    max-width: 1020px;
+}
+
+.fotos-items img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:#a675eb solid 5px;
+    margin: 20px;
+    
+}
+
+.fotos-items{
+    display: flex;
+    margin-left: 40px;
+    max-width: 1020px;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotos-items a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container-post{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2 ,1fr);
+  
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+   
+   
+}
+
+
+
+.title-post{
+    margin: 20px;
+    padding: 10px;
+
+
+}
+
+.subtitulo-post{
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+
+}
+.botton-lern-more{
+    width:150px;
+    background-color:#f1956a ;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+   
+
+}
+
+.botton-lern-more:hover{
+    background-color: rgb(209, 107, 107);
+    color: #f1956a;
+
+}
+
+.botton-lern-more a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+   
+
+}
+
+.imagem-post-small {
+    margin-top: 30px;
+   
+}
+
+
+
+.imagem-post-small img {
+    opacity: 0.5;
+    width: 900px;
+ 
+    display: flex;
+ 
+    
+ 
+}
+
+.imagem-post-big{
+    background-image: url(imagens/coffee-4781151_1280.jpg);
+    opacity: 0.6;
+}
+
+.imagem-post-big2{
+    background-image: url(imagens/iced-chocolate.jpg);
+    opacity: 0.6;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    
+}
+
+.imagem-post-big3{
+    background-image: url(imagens/iced-latte-coffee-morning-breakfast-concept.jpg);
+    opacity: 0.6;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    
+}
+
+.footer-text{
+    background-color: #222221;
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-copry{
+    background-color: #222221;
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
