@@ -1,0 +1,424 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat" Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 224, 224);
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: #131313;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    background-color: #131313;
+    grid-template-columns: 3, 1fr;
+    justify-content: center;}
+    
+
+
+    .button-pedido {
+        height: 20px;
+        width: 120px;
+        padding: 10px;
+        border-radius: 10px;
+        border-color: white solid 5px;
+        align-items: center;
+        text-align: center;
+        border-top: white solid 4px;
+        border-bottom: white solid 2px;
+        border-left: white solid 2px;
+        border-right: white solid 2px;
+
+
+    }
+
+    .button-pedido a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+
+    }
+
+
+/*FIM CONFIGURAÇÕES GERAIS CONTAINER*/
+
+/*CONTAINER HEADER*/
+
+.container-header {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+
+}
+
+.container-header-sub {
+    display: grid;
+    width: 1140px;
+    background-color: #131313;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+
+
+
+}
+
+.logo {
+    color: white;
+    font-size: 15px;
+}
+
+.logo span {
+    color: #FCA311;
+}
+
+.menu {
+    color: white;
+    justify-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+
+}
+
+.menu li {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.menu a:hover{
+    background-color: #FCA311;
+}
+
+.button-pedido:hover{
+    background-color: #FCA311;
+
+}
+
+
+
+/*FIM CONTAINER HEADER*-------------------------------------------------------------------*/
+
+
+
+/*INICIO CONTAIBER CORPO*------------------------------------------------------------------*/
+
+.container-corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+ 
+}
+
+
+.container-corpo1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    height: 700px;
+    max-width: 1140px;
+    margin: 10px;
+ 
+ 
+}
+
+.corpo1{
+  
+    padding: 20px;
+    margin: 10px;
+    color: white;
+  
+}
+
+.titulo-principal{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.titulo-principal h1{
+    font-size: 40px;
+}
+
+.texto-titulo-principal{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.texto-titulo-principal p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+
+
+/*FIM CONTAINER CORPO------------------------------------------------------------*/
+
+#container2{
+    background-color:#1e1e1e ;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-ottom: 20px;
+ 
+
+}
+
+.formatacao-container2-sub{
+    background-color:#1e1e1e ;
+    width: 1140px;
+ 
+   
+}
+
+.container2{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+  
+}
+
+.button-container2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+   
+
+}
+
+.button1{
+    background-color:#494848;
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+   
+}
+
+.button2{
+    background-color:#494848;
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+   
+   
+}
+
+.button1 a{
+    color: white;
+   text-decoration: none;
+   font-size: 18px;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 10px;
+ 
+}
+
+.button2 a{
+    color: white;
+   text-decoration: none;
+   font-size: 18px;
+   margin: 10px;
+   padding: 10px;
+ 
+}
+
+.button2 select{
+    margin: 10px;
+    border-radius: 10px;
+    color: #FCA311;
+}
+
+select{
+    text-align: center;
+}
+
+
+
+#container3{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #131313;
+    justify-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+#productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1140px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+
+
+}
+
+.itens-product{
+    display: block;
+    background-color: #494848;
+    margin: 10px;
+    width: 280px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  padding-top: 10px;
+    
+}
+
+.itens-product:hover{
+    opacity: 0.8;
+}
+
+
+
+#productos a{
+    color: white;
+    border-radius: 10px;
+
+    width: 250px;
+  
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-decoration: none;
+    height: 350px;
+    overflow: hidden;
+
+}
+
+.promotion{
+    position: absolute;
+    background-color: #FCA311;
+    text-decoration: none;
+   font-size: 25px;
+   width: 140px;
+   border-radius: 10px;
+   padding: 5px;
+   text-align: center;
+   margin-bottom: -10px;
+   float: center;
+   margin-left: 10px;
+}
+
+.image-burger{
+    display: flex;
+    justify-content: center;
+}
+
+.product-information{
+    background-color:#1e1e1e ;
+    width: 100%;
+    height: 180px;
+    margin-bottom: -15px;
+    padding: 10px;
+
+}
+
+.image-burger{
+    margin-bottom: -25px;
+}
+
+.product-information h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.preis{
+    color:#FCA311 ;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.product-information p{
+  
+    margin: 0;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+/*INICIO CONTAIBER RODAPE*/
+
+footer{
+    background-color: #494848;
+    padding-bottom: 20px;
+}
+#container4{
+   display: flex;
+   background-color: #494848;
+   justify-content: center;
+   align-items: center;
+   justify-items: center;
+   align-content: center;
+
+}
+
+
+.container4{
+   background-color: #494848;
+    display: flex;
+    justify-content: space-around;
+   padding: 30px;
+   width: 1140px;
+  
+}
+
+.direitos-autorais img{
+    margin: 5px;
+    padding: 5px;
+}
+
+.direitos-texto{
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+}
+/*FIM CONTAINER HODAPE*/
+
+/**/
